@@ -31,8 +31,9 @@ export default class AnnotationDisplayManager {
    * @param {float} currentTime
    */
   synchronize(currentTime) {
-    // iterate over tracks
-    this.tracks.map((track, trackNumber) => {
+    // iterate over tracks - use Array.prototype.some as it will exit early
+    // rather than continuing to iterate after the result is known
+    this.tracks.some((track) => {
       // check if there is a currentAnnotation with endTime now or past currentTime
       // if so hide then clear currentAnnotation
       if (
@@ -43,7 +44,7 @@ export default class AnnotationDisplayManager {
         this.currentAnnotation = null;
       }
       // iterate over annotations of track
-      track.map((annotation, annotationNumber) => {
+      track.some((annotation) => {
         // if currentTime >= annotation startTime and <= the annotaions endTime
         // and the currentAnnotation isn't this one
         // show it and set the currentAnnotation
