@@ -23,7 +23,7 @@ To maintain usability this may be wrapped in a **throttle**.
 
 throttle depends on "throttle-debounce": "^3.0.1"
 
-[Run on StackBlitz ⚡️](https://stackblitz.com/edit/js-pngfsr)
+[Run on StackBlitz ⚡️](https://stackblitz.com/edit/annotationdisplaymanager)
 
 Mock tracks simulate show/hide with console.log.
 
