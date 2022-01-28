@@ -27,7 +27,7 @@ throttle depends on "throttle-debounce": "^3.0.1"
 
 [Run on StackBlitz ⚡️](https://stackblitz.com/edit/annotationdisplaymanager)
 
-Note: For some reason StackBlitz runs the code twice so the console reflects.
+Note: For some reason StackBlitz runs the code twice - the console reflects this.
 
 Mock tracks include simplified time codes and simulate show/hide methods with console.log to keep the demo simple.
 
