@@ -3,7 +3,7 @@ import tracks from './tracks.js';
 import AnnotationDisplayManager from './AnnotationDisplayManager.js';
 
 /**
- * @example - this is how AnnotationDisplayManager is called
+ * @example - Use AnnotationDisplayManager like this:
  */
 let displayManager = new AnnotationDisplayManager(tracks);
 

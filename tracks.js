@@ -3,6 +3,8 @@
  * simplified timestamp as float
  * simulate show/hide function call
  * with console.log
+ *
+ * I envision this file could be generated from an annotation meta data.
  */
 const tracks = [
   [
